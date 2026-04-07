@@ -13,26 +13,27 @@ int main ()
   scanf("%d",&op);
   printf("Ingresa dos cantidades separadas por espacio\n");
   scanf("%f %f",&n1,&n2);
-  swich(op)
+  switch(op)
   {
-    Default:
+    default:
      printf("Opcion no valida\n");
-    Case 1:
-     res=n1+n2
+     break;
+    case 1:
+     res=n1+n2;
      printf("El resultado es %f\n",res);
-     Break;
-    Case 2:
-     res=n1-n2
+     break;
+    case 2:
+     res=n1-n2;
      printf("El resultado es %f\n",res);
-     Break;
-    Case 3:
-     res=n1*n2
+     break;
+    case 3:
+     res=n1*n2;
      printf("El resultado es %f\n",res);
-     Break;
-    Case 4:
-     res=n1/n2
+     break;
+    case 4:
+     res=n1/n2;
      printf("El resultado es %f\n",res);
-     Break;
-  }
-  return0;
+     break;
+   }
+   return0;
 }
