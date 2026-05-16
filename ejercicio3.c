@@ -6,7 +6,7 @@ int main()
     printf("Ingrese cantidad en dolares: ");
     scanf("%f", &dolares);
     
-    pesos = dolares * 17.34;
+    pesos = dolares * 11.96;
     printf("%.2f dolares = %.2f pesos\n", dolares, pesos);
     return 0;
 }
